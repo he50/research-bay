@@ -10,12 +10,7 @@
   <p align="center">
     A web platform for efficiently connecting students to research opportunities and professors
     <br />
-    <a href="https://github.com/DSC-UIUC/research-bay"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="">Live Website (Soon)</a>
-    ·
-    <a href="https://github.com/DSC-UIUC/research-bay/issues">Report Issues</a>
+    <a href="https://github.com/DSC-UIUC/research-bay"><strong>Live Website (Soon)</strong></a>
     <br />
     <br />
     Code Repository Links
