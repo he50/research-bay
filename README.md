@@ -15,9 +15,13 @@
     <br />
     <a href="">Live Website (Soon)</a>
     ·
-    <a href="https://github.com/DSC-UIUC/research-bay/issues">Report Bug</a>
+    <a href="https://github.com/DSC-UIUC/research-bay/issues">Report Issues</a>
+    <br />
+    <a href="https://github.com/DSC-UIUC/rbay-frontend">Frontend</a>
     ·
-    <a href="https://github.com/DSC-UIUC/research-bay/issues">Request Feature</a>
+    <a href="https://github.com/DSC-UIUC/rbay-backend">Backend</a>
+    ·
+    <a href="https://github.com/DSC-UIUC/rbay-data-ml">Data/ML</a>
   </p>
 </p>
 
