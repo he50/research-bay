@@ -136,6 +136,8 @@ Please feel free to email the DSC @ UIUC staff at [dscuiuc2@gmail.com](mailto:ds
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
+Special thanks to:
+
 * [Developer Student Club Program by Google Developers](https://developers.google.com/community/dsc)
 * Daniel Fiorillo, DSC North America Community Manager
 
