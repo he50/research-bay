@@ -67,38 +67,46 @@ More detailed documentation specific to each component can be found in each repo
 
 ### Technologies
 
-* [Firebase]()
-* [Google Cloud Platform]()
-* [React.js()
-  * [create-react-app]()
-  * [Material UI]()
-* [Node.js]()
-* [Algolia]()
+* [Firebase](https://firebase.google.com/)
+* [Google Cloud Platform](https://cloud.google.com/)
+* [React.js](https://reactjs.org/)
+  * [create-react-app](https://github.com/facebook/create-react-app)
+  * [Material UI](https://material-ui.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Algolia](https://www.algolia.com/)
 
 
-## Getting Started
+## Getting Started (Public)
 
-To get a local copy up and running, please follow the guide below.
+Due to the structural nature of Research Bay, only its React.js frontend is feasible to get locally up and running as its backend API is serverless and deployed to an internal Firebase project only accessible to developers in DSC @ UIUC. However, all code is publicly accessible.
+
+To get Research Bay's frontend locally up and running, please follow the guide below.
 
 ### Prerequisites
 
 The latest versions of the following software are required:
 * [git](https://git-scm.com/downloads)
 * [npm](https://www.npmjs.com/get-npm)
-* [Firebase CLI](https://github.com/firebase/firebase-tools)
 
 ### Installation
  
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/DSC-UIUC/rbay-frontend.git rbay-frontend
+cd rbay-frontend
 ```
+
 2. Install NPM packages
 ```sh
 npm install
 ```
 
+3. Run
+```sh
+npm start
+```
 
+The React.js website should now launch at `localhost:3000`. Please post any issues with setup [here](https://github.com/DSC-UIUC/research-bay/issues).
 
 <!-- USAGE EXAMPLES -->
 ## Usage
