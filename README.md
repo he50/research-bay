@@ -91,6 +91,8 @@ More detailed documentation specific to each component can be found in each repo
 
 ### Technologies
 
+The following is a non-exhaustive, general overview of the various tools that are used to develop Research Bay.
+
 * [Firebase](https://firebase.google.com/)
 * [Google Cloud Platform](https://cloud.google.com/)
 * [React.js](https://reactjs.org/)
