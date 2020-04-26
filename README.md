@@ -25,7 +25,10 @@
 ## Table of Contents
 
 * [About](#about)
-  * [Built With](#built-with)
+  * [Background](#background)
+  * [Solution](#solution)
+  * [Structure](#structure)
+  * [Technologies](#technologies)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -40,32 +43,49 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-// TODO
+Research Bay is a community-driven project built by students at the Developer Student Club at University of Illinois at Urbana-Champaign (UIUC) that aims to provide a streamlined and standardized platform for UIUC professors and students to easily connect with research opportunities and talent.
 
-### Built With
+### Background
+
+TODO
+
+### Solution
+
+TODO
+
+### Structure
+
+Research Bay is built as a scalable web application that uses the principles of REST and Serverless to be efficient, modular, and open to future expansion. It is separated into two main components: a React.js frontend app and a Serverless backend API powered by multiple Firebase/GCP services, such as Cloud Functions, Storage, and Firestore. A mobile app in Flutter for Android is currently in the planning stage and would easily integrate with the existing backend.
+
+For organized development, Research Bay's code is divided into the following three public Github repositories:
+
+* [Frontend](https://github.com/DSC-UIUC/rbay-frontend)
+* [Backend](https://github.com/DSC-UIUC/rbay-backend)
+* [Data/ML](https://github.com/DSC-UIUC/rbay-data-ml)
+
+More detailed documentation specific to each component can be found in each repository's README file.
+
+### Technologies
 
 * [Firebase]()
 * [Google Cloud Platform]()
 * [React.js()
+  * [create-react-app]()
+  * [Material UI]()
 * [Node.js]()
 * [Algolia]()
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, please follow the guide below.
 
 ### Prerequisites
 
-Make sure you have the following software (latest versions) already installed:
-* git
-* npm
-
-
-```sh
-npm install npm@latest -g
-```
+The latest versions of the following software are required:
+* [git](https://git-scm.com/downloads)
+* [npm](https://www.npmjs.com/get-npm)
+* [Firebase CLI](https://github.com/firebase/firebase-tools)
 
 ### Installation
  
