@@ -13,7 +13,7 @@
     <a href="https://github.com/DSC-UIUC/research-bay"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="">Live Website (Soon)</a>
     ·
     <a href="https://github.com/DSC-UIUC/research-bay/issues">Report Bug</a>
     ·
@@ -27,13 +27,14 @@
 * [About](#about)
   * [Background](#background)
   * [Solution](#solution)
+  * [DSC Solution Challenge](#dsc-solution-challenge)
   * [Structure](#structure)
   * [Technologies](#technologies)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+* [Future Roadmap](#future-roadmap)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -53,7 +54,13 @@ TODO
 
 TODO
 
+### DSC Solution Challenge
+
+TODO
+
 ### Structure
+
+TODO include diagram
 
 Research Bay is built as a scalable web application that uses the principles of REST and Serverless to be efficient, modular, and open to future expansion. It is separated into two main components: a React.js frontend app and a Serverless backend API powered by multiple Firebase/GCP services, such as Cloud Functions, Storage, and Firestore. A mobile app in Flutter for Android is currently in the planning stage and would easily integrate with the existing backend.
 
@@ -76,7 +83,7 @@ More detailed documentation specific to each component can be found in each repo
 * [Algolia](https://www.algolia.com/)
 
 
-## Getting Started (Public)
+## Getting Started (Public Frontend)
 
 Due to the structural nature of Research Bay, only its React.js frontend is feasible to get locally up and running as its backend API is serverless and deployed to an internal Firebase project only accessible to developers in DSC @ UIUC. However, all code is publicly accessible.
 
@@ -90,92 +97,46 @@ The latest versions of the following software are required:
 
 ### Installation
  
-1. Clone the repo
 ```sh
 git clone https://github.com/DSC-UIUC/rbay-frontend.git rbay-frontend
 cd rbay-frontend
-```
-
-2. Install NPM packages
-```sh
 npm install
-```
-
-3. Run
-```sh
 npm start
 ```
 
-The React.js website should now launch at `localhost:3000`. Please post any issues with setup [here](https://github.com/DSC-UIUC/research-bay/issues).
+The React.js website should launch at `localhost:3000`. Please post any issues with setup [here](https://github.com/DSC-UIUC/rbay-frontend/issues).
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Please refer to Research Bay's three repositories and their respective READMEs for additional details, documentation, and examples:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+* [Frontend](https://github.com/DSC-UIUC/rbay-frontend)
+* [Backend](https://github.com/DSC-UIUC/rbay-backend)
+* [Data/ML](https://github.com/DSC-UIUC/rbay-data-ml)
 
 <!-- ROADMAP -->
-## Roadmap
+## Future Roadmap
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+TODO
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+Research Bay is developed and maintained by students in Developer Student Club at UIUC. If you are interested in contributing to this project or joining the club, please reach out to club staff at [dscuiuc2@gmail.com](mailto:dscuiuc2@gmail.com). DSC @ UIUC will resume new member recruitment in fall 2020.
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
-
-
+Please feel free to email the DSC @ UIUC staff at [dscuiuc2@gmail.com](mailto:dscuiuc2@gmail.com) with any questions or concerns.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Developer Student Club Program by Google Developers](https://developers.google.com/community/dsc)
+* Daniel Fiorillo, DSC North America Community Manager
 
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
