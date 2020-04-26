@@ -56,7 +56,14 @@ TODO
 
 ### DSC Solution Challenge
 
-TODO
+Research Bay is a project originally created to be submitted to the Developer Student Club program's annual [Solution Challenge](https://events.withgoogle.com/dsc-solution-challenge/) for 2020. As a result, the DSC @ UIUC team consistently strived to develop the project focused on the contest's grading criteria.
+
+<p align="center">
+  <a href="https://events.withgoogle.com/dsc-solution-challenge">
+    <img src="images/dsc_criteria.png" alt="Logo">
+  </a>
+</p>
+
 
 ### Structure
 
