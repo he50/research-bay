@@ -100,7 +100,7 @@ More detailed documentation specific to each component can be found in each repo
 * [Algolia](https://www.algolia.com/)
 
 
-## Getting Started (Public Frontend)
+## Getting Started
 
 Due to the structural nature of Research Bay, only its React.js frontend is feasible to get locally up and running as its backend API is serverless and deployed to an internal Firebase project only accessible to developers in DSC @ UIUC. However, all code is publicly accessible.
 
