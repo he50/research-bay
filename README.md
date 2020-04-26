@@ -37,6 +37,7 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Future Roadmap](#future-roadmap)
+* [Team](#team)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -134,6 +135,24 @@ Please refer to Research Bay's three repositories and their respective READMEs f
 ## Future Roadmap
 
 TODO
+
+## Team
+
+Research Bay was originally developed by student members of Developer Student Club at UIUC in the 2019-2020 school year. All students who made a non-trivial effort and contribution to this project are below. Special thanks to all of these hard-working students! :smile:
+
+| Student                                                                             | Role             | Team              |
+|-------------------------------------------------------------------------------------|------------------|-------------------|
+| [Keon (Isaac) Park](https://www.linkedin.com/in/parkkeo1/)                          | Lead Dev, Mentor | Frontend, Backend |
+| [Dhvanil Popat](https://www.linkedin.com/in/dhvanilpopat/)                          | Dev              | Frontend          |
+| [Rutu Brahmbhatt](https://www.linkedin.com/in/rutu-brahmbhatt/)                     | Dev              | Frontend          |
+| [Alex Li](https://www.linkedin.com/in/akevli/)                                      | Dev              | Frontend          |
+| [Thomas Yang](https://www.linkedin.com/in/tyang1780/)                               | Dev              | Backend           |
+| Steven Pan                                                                          | Dev              | Backend           |
+| [Aditya Sriram](https://www.linkedin.com/in/sriramaditya/)                          | Dev              | Backend           |
+| [Neil Reddy](https://www.linkedin.com/in/neil-reddy-528275175/)                     | Dev              | Data/ML           |
+| [Jonathan He](https://www.linkedin.com/in/jonathan-he-00a009193/)                   | Dev              | Data/ML           |
+| [Reetahan Mukhopadhyay](https://www.linkedin.com/in/reetahan-mukhopadhyay/)         | Dev              | Data/ML           |
+| [Kavi Ravuri](https://www.linkedin.com/in/kavi-ravuri/)                             | Mentor           | Backend           |
 
 ## Contributing
 
