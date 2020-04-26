@@ -84,7 +84,7 @@ For organized development, Research Bay's code is divided into the following thr
 
 * [Frontend](https://github.com/DSC-UIUC/rbay-frontend)
 * [Backend](https://github.com/DSC-UIUC/rbay-backend)
-* [Data/ML](https://github.com/DSC-UIUC/rbay-data-ml)
+* [Data/ML](https://github.com/DSC-UIUC/rbay-data-ml) (For our recommendation and search systems)
 
 More detailed documentation specific to each component can be found in each repository's README file.
 
@@ -125,11 +125,7 @@ The React.js website should launch at `localhost:3000`. Please post any issues w
 
 ## Usage
 
-Please refer to Research Bay's three repositories and their respective READMEs for additional details, documentation, and examples:
-
-* [Frontend](https://github.com/DSC-UIUC/rbay-frontend)
-* [Backend](https://github.com/DSC-UIUC/rbay-backend)
-* [Data/ML](https://github.com/DSC-UIUC/rbay-data-ml)
+Please refer to Research Bay's three repositories and their respective READMEs for additional details, documentation, and examples.
 
 <!-- ROADMAP -->
 ## Future Roadmap
