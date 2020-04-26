@@ -60,7 +60,7 @@ Research Bay is a project originally created to be submitted to the Developer St
 
 <p align="center">
   <a href="https://events.withgoogle.com/dsc-solution-challenge">
-    <img src="images/dsc_criteria.png" alt="Logo">
+    <img src="images/dsc_criteria.PNG" alt="DSC Solution Challenge Criteria">
   </a>
 </p>
 
