@@ -79,6 +79,7 @@ More detailed documentation specific to each component can be found in each repo
 * [React.js](https://reactjs.org/)
   * [create-react-app](https://github.com/facebook/create-react-app)
   * [Material UI](https://material-ui.com/)
+  * [Redux](https://redux.js.org/)
 * [Node.js](https://nodejs.org/en/)
 * [Algolia](https://www.algolia.com/)
 
