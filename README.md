@@ -74,7 +74,9 @@ Research Bay is a project originally created to be submitted to the Developer St
 
 ### Structure
 
-TODO include diagram
+<p align="center">
+  <img src="images/rbay_diagram.png" alt="Research Bay Diagram">
+</p>
 
 Research Bay is built as a scalable web application that uses the principles of REST and Serverless to be efficient, modular, and open to future expansion. It is separated into two main components: a React.js frontend app and a Serverless backend API powered by multiple Firebase/GCP services, such as Cloud Functions, Storage, and Firestore. A mobile app in Flutter for Android is currently in the planning stage and would easily integrate with the existing backend.
 
@@ -137,7 +139,9 @@ TODO
 ## Contributing
 
 <p align="center">
+  <br />
   <img src="images/dscuiuc_logo.png" alt="DSC at UIUC" height="250" width="auto">
+  <br />
 </p>
 
 Research Bay is developed and maintained by students in Developer Student Club at UIUC. If you are interested in contributing to this project or joining the club, please reach out to club staff at [dscuiuc2@gmail.com](mailto:dscuiuc2@gmail.com). DSC @ UIUC will resume new member recruitment in fall 2020, and more information will be posted on the DSC @ UIUC [website](bit.ly/dscuiuc).
