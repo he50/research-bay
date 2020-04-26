@@ -49,7 +49,11 @@
 
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+  <a href="">
+    <img src="images/rbay_demo1.PNG" alt="Demo 1">
+  </a>
+</p>
 
 Research Bay is a community-driven project built by students at the Developer Student Club at University of Illinois at Urbana-Champaign (UIUC) that aims to provide a streamlined and standardized platform for UIUC professors and students to easily connect with research opportunities and talent.
 
