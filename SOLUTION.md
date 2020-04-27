@@ -70,6 +70,4 @@ Also, compared to typical servers (ex. using Node.js or Apache), our Serverless 
 
 2. Increased scalability: Given that our plan is to eventually release Research Bay to the UIUC population of students and professors, we emphasized futureproofing and scalability during development. All of the Firebase services we use for Research Bay (Authentication, Firestore, Storage, Hosting, Cloud Functions) are all automatically scalable to thousands of users with minimal changes in our code. All infrastructure maintenance and scaling is internally handled by Firebase.
 
-3. Easier updates and deployments: **TODO**
-
-4. Easier development with multiple languages for different features: To develop Research Bay's recommendation system, which matches professors with students for research opportunities, we opted use Python for its extensive collection of NLP libraries. Because our backend is written in Cloud Functions, which can be used with multiple languages, it was very easy to integrate our Python code into the rest of the API, which is mainly written in JavaScript.
+3. Easier development with multiple languages for different features: To develop Research Bay's recommendation system, which matches professors with students for research opportunities, we opted use Python for its extensive collection of NLP libraries. Because our backend is written in Cloud Functions, which can be used with multiple languages, it was very easy to integrate our Python code into the rest of the API, which is mainly written in JavaScript.
