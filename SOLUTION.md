@@ -62,16 +62,14 @@ In terms of effectively continuing development with new and existing features, G
 
 #### Describe your favorite component (s) /feature (s) of your technical infrastructure and why you chose it/them for your solution.
 
-My favorite part of our tech stack for Research Bay is the Serverless Firebase backend and its REST HTTP API. As it handles all user actions and data transactions, it is the key component responsible for seamlessly connecting all of the other project components (frontend, database, Algolia, recommendation system) to form the entire Research Bay platform. 
+My favorite part of our tech stack for Research Bay is the Serverless Firebase backend and its REST HTTP API. It is the key component responsible for seamlessly connecting all of the other project components (frontend, database, Algolia, recommendation system) to form the entire Research Bay platform. For example, **TODO explain frontend-backend standard and how it can be used for mobile**
 
-Compared to typical persistent backend technologies (servers using Node.js, PHP, or Apache, for example), a Serverless backend on the cloud (Firebase, GCP, etc) has the following advantages, which we gladly make use of in our project code!
+Also, compared to typical servers (ex. using Node.js or Apache), our Serverless Firebase backend has the following advantages:
 
-1. Lower costs: the pay-as-you-go (or use) model: For any deployed/public project, it is important to keep resource costs low and efficient, especially as college students with money-saving mindsets. With Firebase, our costs are kept minimal because the Research Bay API runs its Cloud Functions and spends compute time only when invoked by the frontend web app. Likewise, the Firestore database also only charges for direct W/R transactions. Additionally, thanks to Firebase's free usage limits, Research Bay's infrastructure costs will remain efficient even with many more users. 
+1. Lower costs: the pay-as-you-go (or use) model: For Research Bay, it is important to us as students to keep resource costs low and efficient. With Firebase, our costs are kept minimal because the backend runs its Cloud Functions and spends compute time only when invoked by the frontend web app. Likewise, the Firestore database also only charges for direct W/R transactions. Additionally, thanks to Firebase's free usage limits, Research Bay's infrastructure costs will remain low even with many more users. 
 
-2. Increased scalability: Given that our plan is to eventually release Research Bay to the UIUC population of students and professors, we emphasized futureproofing and scalability during development. All of the Firebase services we use for Research Bay (Authentication, Firestore, Storage, Hosting, Cloud Functions) are all automatically scalable to thousands of users with minimal changes. All infrastructure maintenance and scaling is internally handled by Firebase.
+2. Increased scalability: Given that our plan is to eventually release Research Bay to the UIUC population of students and professors, we emphasized futureproofing and scalability during development. All of the Firebase services we use for Research Bay (Authentication, Firestore, Storage, Hosting, Cloud Functions) are all automatically scalable to thousands of users with minimal changes in our code. All infrastructure maintenance and scaling is internally handled by Firebase.
 
+3. Easier updates and deployments: **TODO**
 
-3. Easier updates and deployments: 
-4. Easier development with multiple languages for different features
-
----
+4. Easier development with multiple languages for different features: To develop Research Bay's recommendation system, which matches professors with students for research opportunities, we opted use Python for its extensive collection of NLP libraries. Because our backend is written in Cloud Functions, which can be used with multiple languages, it was very easy to integrate our Python code into the rest of the API, which is mainly written in JavaScript.
