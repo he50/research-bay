@@ -21,13 +21,15 @@ Our university offers thousands of research opportunities, however, many student
 #### How will or has your solution improved the lives of people in your community? 
 (Please include specific use cases of how users can use this solution. Do not worry about the technical components here)
 
+Additional details are available here: 
+
 ---
 
 #### Please walk us through the steps you took to build your solution. Include which products or platforms you used and why. Please include guidance on how to run your code.
 
 
 
-Details for running our code are found here: https://github.com/DSC-UIUC/research-bay#getting-started
+Details for running our code are found here: https://github.com/DSC-UIUC/research-bay/blob/master/README.md#about
 
 ---
 
