@@ -106,17 +106,43 @@ The following is a non-exhaustive, general overview of the various tools that ar
 
 ## Getting Started
 
-Due to the structural nature of Research Bay, only its React.js frontend is feasible to get locally up and running as its backend API is serverless and deployed to an internal Firebase project only accessible to developers in DSC @ UIUC. However, all code is publicly accessible.
-
-To get Research Bay's frontend locally up and running, please follow the guide below.
+Due to the structural nature of Research Bay, attempted changes to its internal Firebase deployment by external users will be rejected. Thus, a new Firebase and Algolia project must be created to deploy your own full instance of Research Bay (both frontend and backend). However, all of Research Bay's code is publicly accessible. Please follow the guide below to get started.
 
 ### Prerequisites
 
 The latest versions of the following software are required:
 * [git](https://git-scm.com/downloads)
 * [npm](https://www.npmjs.com/get-npm)
+* [Firebase CLI](https://firebase.google.com/docs/cli)
+
+#### Creating a Firebase Project
+
+1. Navigate to the [Firebase Console](https://console.firebase.google.com/)
+2. Click "Add Project"
+3. Follow the on-screen prompts. Disable Google Analytics. 
+4. Once the project is created, enable and setup the following Firebase services:
+
+  * Authentication
+    * Enable only the Email/Password sign-in method without email link.
+  * Database (Firestore)
+    * Set to production mode.
+    * Once provisioned, create the following collections (schema isn't important yet): `postings`, `profiles`, `users`
+  * Storage: 
+    * Once provisioned, create the following folders within the default bucket: `picture`, `resume`
+  * Hostings
+  * Functions
+  
+Instructions for better security rules for Firestore and Storage will be updated once the Research Bay team determines those that are fit for the project.
+
+After the Firebase CLI is installed and the project has been created, do:
+
+```sh
+firebase login
+```
 
 ### Installation
+
+#### Frontend
  
 ```sh
 git clone https://github.com/DSC-UIUC/rbay-frontend.git rbay-frontend
@@ -125,7 +151,30 @@ npm install
 npm start
 ```
 
-The React.js website should launch at `localhost:3000`. Please post any issues with setup [here](https://github.com/DSC-UIUC/rbay-frontend/issues).
+The React.js website should launch at `localhost:3000`. Please post any issues with setup [here](https://github.com/DSC-UIUC/rbay-frontend/issues). To deploy to Firebase Hosting, please follow detailed instructions [here](https://www.robinwieruch.de/firebase-deploy-react-js).
+
+#### Backend
+
+```sh
+git clone https://github.com/DSC-UIUC/rbay-backend.git rbay-backend
+cd rbay-backend
+firebase init
+```
+
+When prompted, select to only initialize Firebase Cloud Functions. Afterwards, do:
+
+```sh
+cd functions
+npm install
+cd ..
+firebase deploy --only functions
+```
+
+The Research Bay Cloud Functions should now be deployed. Any local changes to function code must be manually deployed to Firebase in the future. 
+
+#### Data/ML
+
+TODO
 
 ## Usage
 
