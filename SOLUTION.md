@@ -5,6 +5,8 @@
 #### Please clearly describe the challenge you are looking to solve with technology and how this solution addresses the challenge at hand. 
 (max 500 chars)
 
+Our university offers thousands of research opportunities, however, many students are unaware that these opportunities exist. Currently, there is no standardized way of discovering and pursuing research with professors. Research Bay aims to provide a platform for UIUC students to discover research opportunities and for professors to discover talent. It offers a streamlined, one-stop-shop solution for students and professors through personalized profiles, research postings coupled with a search/recommendation system. 
+
 ---
 
 #### Walk us through the steps you took to test your solution.
