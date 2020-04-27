@@ -32,6 +32,12 @@
 #### What specific support do you need to achieve that?
 What has to happen to implement this solution to new regions and new users?
 
+To complete Research Bay into a production-ready user-facing public platform, the Research bay team is not only concerned with adding/improving website performance and functionality. To ensure better security for its users and their personal data, Research Bay will need the support of the University of Illinois and its Technology Services department to be further examined to make sure it meets all University standards. It will also be helpful to integrate Research Bay's user authentication with UIUC's Shibboleth system to better connect online users to their real-life identity.
+
+The Research Bay team would also need support from both UIUC and Google with advertising and providing legitimacy for the website before and during its limited and public release stages. 
+
+TODO
+
 ---
 
 #### Describe your favorite component (s) /feature (s) of your technical infrastructure and why you chose it/them for your solution.
