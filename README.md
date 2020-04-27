@@ -32,7 +32,7 @@
   * [Technologies](#technologies)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Deployment](#deployment)
+  * [Setup](#setup)
 * [Usage](#usage)
 * [Future Roadmap](#future-roadmap)
 * [Team](#team)
@@ -138,7 +138,7 @@ After the Firebase CLI is installed and the project has been created, do:
 firebase login
 ```
 
-### Deployment
+### Setup
 
 #### Frontend
  
