@@ -62,9 +62,9 @@ In terms of effectively continuing development with new and existing features, G
 
 #### Describe your favorite component (s) /feature (s) of your technical infrastructure and why you chose it/them for your solution.
 
-My favorite part of our tech stack for Research Bay is the Serverless Firebase backend and its REST HTTP API. It is the key component responsible for seamlessly connecting all of the other project components (frontend, database, Algolia, recommendation system) to form the entire Research Bay platform. For example, **TODO explain frontend-backend standard and how it can be used for mobile**
+My favorite part of our tech stack for Research Bay is the Serverless Firebase backend and its REST HTTP API because it is modular, efficient, and responsible for seamlessly connecting all of the other components into Research Bay. For example, the React.js frontend communicates with the backend over HTTP using a well-defined API that follows REST principles. Due to this modular design, the backend can be used with any UI that follows the API standards. When the Research Bay mobile app is being developed, it will be able to easily integrate with the current backend just like the website.
 
-Also, compared to typical servers (ex. using Node.js or Apache), our Serverless Firebase backend has the following advantages:
+Compared to typical servers (ex. using Node.js or Apache), our Serverless backend also has the following advantages:
 
 1. Lower costs: the pay-as-you-go (or use) model: For Research Bay, it is important to us as students to keep resource costs low and efficient. With Firebase, our costs are kept minimal because the backend runs its Cloud Functions and spends compute time only when invoked by the frontend web app. Likewise, the Firestore database also only charges for direct W/R transactions. Additionally, thanks to Firebase's free usage limits, Research Bay's infrastructure costs will remain low even with many more users. 
 
