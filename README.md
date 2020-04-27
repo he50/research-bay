@@ -10,7 +10,7 @@
   <p align="center">
     A web platform for efficiently connecting students to research opportunities and professors
     <br />
-    <a href="https://research-bay.web.app"><strong>Live Website</strong></a>
+    <a href="https://research-bay.web.app"><strong><< Live Website >></strong></a>
     <br />
     <br />
     Code Repository Links
@@ -80,7 +80,7 @@ Research Bay is a project originally created to be submitted to the Developer St
   <img src="images/rbay_diagram.png" alt="Research Bay Diagram">
 </p>
 
-Research Bay is built as a scalable web application that uses the principles of REST and Serverless to be efficient, modular, and open to future expansion. It is separated into two main components: a React.js frontend app and a Serverless backend API powered by multiple Firebase/GCP services, such as Cloud Functions, Storage, and Firestore. A mobile app in Flutter for Android is currently in the planning stage and would easily integrate with the existing backend.
+Research Bay is built as a scalable web application that uses the principles of REST and Serverless to be efficient, modular, and open to future expansion. It is separated into two main components: a React.js frontend app and a Serverless backend API powered by multiple Firebase/GCP services, such as Cloud Functions, Storage, and Firestore. The React.js website is currently deployed using Firebase Hosting and is available [here](https://research-bay.web.app). A mobile app in Flutter for Android is currently in the planning stage and would easily integrate with the existing backend.
 
 For organized development, Research Bay's code is divided into the following three public Github repositories:
 
