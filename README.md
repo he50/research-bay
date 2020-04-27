@@ -58,7 +58,9 @@ Research Bay is a community-driven project built by students at the Developer St
 
 ### Background
 
-TODO
+University of Illinois has thousands of research opportunities for students every year. However, many are unaware of what research opportunities exist. Currently, there is no standardized way of discovering or pursuing research with professors. To land a role, students must search for willing professors or hunt through physical job boards and endless department emails to find research programs and opportunities. 
+
+This is a serious community issue because research is essential for allowing students to gain hands-on experience, form professional connections with professors, and contribute to potential advancements in the field. Likewise, professors heavily rely on student talent to advance their projects.
 
 ### Solution
 
