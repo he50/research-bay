@@ -1,5 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/DSC-UIUC/research-bay">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
@@ -122,15 +120,15 @@ The latest versions of the following software are required:
 3. Follow the on-screen prompts. Disable Google Analytics. 
 4. Once the project is created, enable and setup the following Firebase services:
 
-  * Authentication
-    * Enable only the Email/Password sign-in method without email link.
-  * Database (Firestore)
-    * Set to production mode.
-    * Once provisioned, create the following collections (schema isn't important yet): `postings`, `profiles`, `users`
-  * Storage: 
-    * Once provisioned, create the following folders within the default bucket: `picture`, `resume`
-  * Hostings
-  * Functions
+    * Authentication
+      * Enable only the Email/Password sign-in method without email link.
+    * Database (Firestore)
+      * Set to production mode.
+      * Once provisioned, create the following collections (schema isn't important yet): `postings`, `profiles`, `users`
+    * Storage: 
+      * Once provisioned, create the following folders within the default bucket: `picture`, `resume`
+    * Hostings
+    * Functions
   
 Instructions for better security rules for Firestore and Storage will be updated once the Research Bay team determines those that are fit for the project.
 
@@ -140,7 +138,7 @@ After the Firebase CLI is installed and the project has been created, do:
 firebase login
 ```
 
-### Installation
+### Deployment
 
 #### Frontend
  
@@ -180,10 +178,25 @@ TODO
 
 Please refer to Research Bay's three repositories and their respective READMEs for additional details, documentation, and examples.
 
-<!-- ROADMAP -->
 ## Future Roadmap
 
-TODO
+Research Bay's core features are largely complete, but the team plans to continue develop new features and refine/maintain existing functionalities. Current plans for the future are briefly described below, listed in order of short-term to long-term goals. Future development will continue to emphasize scalability, clean design, and better user experience.
+
+1. UI Additions / Improvements
+  * Local filtering for search and recommendation results
+  * View and edit requirements for postings
+  * Faster loading times for actions
+  * Style / theme changes
+2. Backend Code Optimizations / Speedups
+  * Improve function code to reduce latency between client and server
+  * Remove redundant DB queries
+3. Recommendation / Search System Improvements
+  * Larger, more generalized training data
+  * Test with more user profiles and postings
+4. Mobile app 
+  * Would be a new frontend interface to expand Research Bay's availability and reach
+  * Easy integration with existing backend
+  * Develop in Flutter
 
 ## Team
 
@@ -213,22 +226,17 @@ Research Bay was originally developed by student members of Developer Student Cl
 
 Research Bay is developed and maintained by students in Developer Student Club at UIUC. If you are interested in contributing to this project or joining the club, please reach out to club staff at [dscuiuc2@gmail.com](mailto:dscuiuc2@gmail.com). DSC @ UIUC will resume new member recruitment in fall 2020, and more information will be posted on the DSC @ UIUC [website](bit.ly/dscuiuc).
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
 ## Contact
 
 Please feel free to email the DSC @ UIUC staff at [dscuiuc2@gmail.com](mailto:dscuiuc2@gmail.com) with any questions or concerns.
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 Special thanks to:
 
 * [Developer Student Club Program by Google Developers](https://developers.google.com/community/dsc)
 * Daniel Fiorillo, DSC North America Community Manager
-
-[product-screenshot]: images/screenshot.png
