@@ -32,7 +32,7 @@
   * [Technologies](#technologies)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  * [Deployment](#deployment)
 * [Usage](#usage)
 * [Future Roadmap](#future-roadmap)
 * [Team](#team)
