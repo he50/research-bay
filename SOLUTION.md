@@ -34,9 +34,9 @@ What has to happen to implement this solution to new regions and new users?
 
 To complete Research Bay into a production-ready user-facing public platform, the Research bay team is not only concerned with adding/improving website performance and functionality. To ensure better security for its users and their personal data, Research Bay will need the support of the University of Illinois and its Technology Services department to be further examined to make sure it meets all University standards. It will also be helpful to integrate Research Bay's user authentication with UIUC's Shibboleth system to better connect online users to their real-life identity.
 
-The Research Bay team would also need support from both UIUC and Google with advertising and providing legitimacy for the website before and during its limited and public release stages. 
+The Research Bay team would also need support from both UIUC and Google with advertising and providing legitimacy for the website before and during its limited and public release stages. The University's assistance would be valuable when reaching out to professors to join the platform, and Google's support for Research Bay could provide increased exposure, trust, and willingness to join the platform by potential students.
 
-TODO
+In terms of effectively continuing development with new and existing features, Google's wide array of available technical expertise would be immensely helpful to take Research Bay to the next level. For example, learning from subject matter experts in Firebase would be really useful to the team to improve our backend codebase. Additional training for GCP and/or Firebase would give us a better, more comprehensive understanding of the in-depth details of the services that make up our product.
 
 ---
 
