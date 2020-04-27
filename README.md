@@ -12,7 +12,7 @@
     <a href="https://research-bay.web.app"><strong><< Live Website >></strong></a>
     <br />
     <br />
-    Code Repository Links
+  <strong>Code Repository Links</strong>
     <br />
     <a href="https://github.com/DSC-UIUC/research-bay">Main</a>
     ·
