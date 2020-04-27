@@ -64,7 +64,7 @@ This is a serious community issue because research is essential for allowing stu
 
 ### Solution
 
-TODO
+Research Bay aims to provide a streamlined and standardized web platform for UIUC professors and students to easily connect with talent and research opportunities. Users are able to create personalized profiles focusing on their research interests. Professors can post research positions and be recommended best-fit students while students can search postings and be recommended research positions.  
 
 ### DSC Solution Challenge
 
