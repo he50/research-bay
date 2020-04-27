@@ -183,20 +183,20 @@ Please refer to Research Bay's three repositories and their respective READMEs f
 Research Bay's core features are largely complete, but the team plans to continue develop new features and refine/maintain existing functionalities. Current plans for the future are briefly described below, listed in order of short-term to long-term goals. Future development will continue to emphasize scalability, clean design, and better user experience.
 
 1. UI Additions / Improvements
-  * Local filtering for search and recommendation results
-  * View and edit requirements for postings
-  * Faster loading times for actions
-  * Style / theme changes
+    * Local filtering for search and recommendation results
+    * View and edit requirements for postings
+    * Faster loading times for actions
+    * Style / theme changes
 2. Backend Code Optimizations / Speedups
-  * Improve function code to reduce latency between client and server
-  * Remove redundant DB queries
+    * Improve function code to reduce latency between client and server
+    * Remove redundant DB queries
 3. Recommendation / Search System Improvements
-  * Larger, more generalized training data
-  * Test with more user profiles and postings
+    * Larger, more generalized training data
+    * Test with more user profiles and postings
 4. Mobile app 
-  * Would be a new frontend interface to expand Research Bay's availability and reach
-  * Easy integration with existing backend
-  * Develop in Flutter
+    * Would be a new frontend interface to expand Research Bay's availability and reach
+    * Easy integration with existing backend
+    * Develop in Flutter
 
 ## Team
 
