@@ -184,7 +184,8 @@ Please refer to Research Bay's three repositories and their respective READMEs f
 
 ### Release
 
-With much of Research Bay's core features largely complete, the team has started planning Research Bay's eventual public release to the University of Illinois population. Once sufficient code refining/testing is complete and the project is submitted to the DSC Solution Challenge, Research Bay is expected to begin a limited release to selected groups of students and professors sometime in fall 2020 to prepare for a full release.
+With much of Research Bay's core features largely complete, the team has started planning for Research Bay's eventual public release to the University of Illinois population. Once all features and sufficiently refined, tested, and finalized, the team expects to begin a limited release of Research Bay to groups of selected students and professors at UIUC sometime in fall 2020 to gather more user feedback, make any necessary updates, and gradually prepare for a full release farther in the future. Ideally, Research Bay could expand to other universities to continue its mission in new regions.
+
 
 ### Continued Development
 
