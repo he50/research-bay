@@ -23,6 +23,10 @@
 
 #### Please walk us through the steps you took to build your solution. Include which products or platforms you used and why. Please include guidance on how to run your code.
 
+
+
+Details for running our code are found here: https://github.com/DSC-UIUC/research-bay#getting-started
+
 ---
 
 #### What do you see as the future / next steps for your project? What will take your project to the next level?
