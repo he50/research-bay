@@ -180,7 +180,13 @@ Please refer to Research Bay's three repositories and their respective READMEs f
 
 ## Future Roadmap
 
-Research Bay's core features are largely complete, but the team plans to continue develop new features and refine/maintain existing functionalities. Current plans for the future are briefly described below, listed in order of short-term to long-term goals. Future development will continue to emphasize scalability, clean design, and better user experience.
+### Release
+
+With much of Research Bay's core features largely complete, the team has started planning Research Bay's eventual public release to the University of Illinois population. Once sufficient code refining/testing is complete and the project is submitted to the DSC Solution Challenge, Research Bay is expected to begin a limited release to selected groups of students and professors sometime in fall 2020 to prepare for a full release.
+
+### Continued Development
+
+The Research Bay team also plans to continue development and maintenance of this project. Current plans are briefly described below, listed in order of short-term to long-term goals. Future development will continue to emphasize scalability, clean design, and better user experience.
 
 1. UI Additions / Improvements
     * Local filtering for search and recommendation results
