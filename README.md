@@ -147,7 +147,7 @@ Research Bay was originally developed by student members of Developer Student Cl
 | [Rutu Brahmbhatt](https://www.linkedin.com/in/rutu-brahmbhatt/)                     | Dev              | Frontend          |
 | [Alex Li](https://www.linkedin.com/in/akevli/)                                      | Dev              | Frontend          |
 | [Thomas Yang](https://www.linkedin.com/in/tyang1780/)                               | Dev              | Backend           |
-| [Steven Pan](https://www.linkedin.com/in/steven-pan-a5a1a41a8/)                     | Dev              | Backend           |
+| [Steven Pan](https://www.linkedin.com/in/stevenxpan/)                               | Dev              | Backend           |
 | [Aditya Sriram](https://www.linkedin.com/in/sriramaditya/)                          | Dev              | Backend           |
 | [Neil Reddy](https://www.linkedin.com/in/neil-reddy-528275175/)                     | Dev              | Data/ML           |
 | [Jonathan He](https://www.linkedin.com/in/jonathan-he-00a009193/)                   | Dev              | Data/ML           |
