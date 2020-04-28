@@ -12,14 +12,17 @@ Our university offers thousands of research opportunities, however, many student
 #### Walk us through the steps you took to test your solution.
 
 Unit Testing:
+
 For our React.js frontend, we tested individual UI elements, actions, and styles according to reference sketches and mockups we had designed for Research Bay before development. With the mockups, we always kept a solid vision of what and how we wanted the UI to look and behave. Frontend mockups/notes:  https://bit.ly/2SfdDNV
 
 For our backend API consisting of Cloud Functions, we implemented a straightforward testing process for each function according to the specific data formats and HTTP schemas we designed beforehand. We tested each function’s request, response, and internal Firebase actions (i.e. CRUD user data/actions) by using Postman and/or a Python script using Requests. Any calls to “Set” data functions were tested to work both via the Firebase console and corresponding “Get” calls. This unit-testing prepared the team well for the next stage of testing: integrating the frontend with backend.
 
 Integration Testing:
+
 After the initial unit testing, we moved onto connecting the frontend with the backend via HTTP. We tested various simple user actions such as authentication (sign in/up) and fetching and displaying the user’s profile data. During this stage, we thoroughly tested the correctness of our HTTP request/response formats and error handling code and continuously updated a large bulk of our documentation and code. The frontend was updated to better display and send user data, and bugs in the backend were patched to ensure all CRUD operations were working correctly. After the essential CRUD functionality, we moved onto testing our recommendations/search systems.
 
 End-to-end, Field Testing:
+
 Once most core features of Research Bay were largely completed, we began end-to-end testing with a local instance of the React.js app and deployed Firebase backend. Members of all Research Bay teams tested the website from the perspective of external users: creating accounts, customizing profiles, and creating/applying to research postings from sample professor accounts. Testing the website’s UI/UX, performance, and correctness help us to patch additional bugs, add minor quality-of-life improvements, and set our future roadmap. After this stage of testing, we plan to release Research Bay to a limited group of professors and students at UIUC to gather feedback from more users.
 
 ---
