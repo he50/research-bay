@@ -43,10 +43,9 @@ For the backend team, much of the feedback they have received has been about dat
 
 1. Standardized JSON response data format and handle CORS issues
 2. Instead of returning only document IDs and making the frontend send multiple requests for profile or postings data, modify the endpoint to fetch and return user data by itself
-3. Fix user deletion so that all documents (profile, postings, metadata, etc) are deleted along with the user in Authentication (deep deletion)
+3. Fix user deletion so that all DB documents (profile, postings, metadata, etc) are deleted along with the user in Authentication (deep deletion)
 
-As we continue development with our future roadmap and hope to gather more feedback from a limited release in the fall, we will continue improving the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes will be needed as we have already finished and refined most core features with end-to-end testing.
-
+As we continue development with our future roadmap and hope to gather more feedback from a limited release in the fall, we will continue improving the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes are likely as we have already finished and refined most core features with good end-to-end testing.
 
 ---
 
