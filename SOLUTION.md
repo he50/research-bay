@@ -58,6 +58,24 @@ Additional details are available here: https://github.com/DSC-UIUC/research-bay#
 
 #### Please walk us through the steps you took to build your solution. Include which products or platforms you used and why. Please include guidance on how to run your code.
 
+There were 3 main overarching stages for building Research Bay: design, develop, and finalize, with testing and user feedback being significant in all stages.
+
+After the basic idea for Research Bay was defined, each team (frontend, backend, data/ml) began brainstorming. The frontend team began sketching UI mockups, using JumpStart and LinkedIn as inspiration. The backend team identified the website’s required CRUD operations. The data/ml team researched how to implement a NLP-based system for matching users to research opportunities and what user data would be needed. Common ideas between the teams, such as profile personalization and matching professors’s research to students, were prioritized.
+
+After identifying core features and functionalities, we determined the ideal tech stack to use for Research Bay for our needs. After much research, we selected the following:
+
+Frontend: We opted for a React/Redux app because of its widespread industry use, relatively straightforward learning curve (most team members were beginners), and a wide array of available styling libraries fit for our use, among other reasons. We selected Material UI as our main components library because it adapts Google’s Material Design style that we wanted to adopt for our website. 
+Backend: TODO
+Data/ML: TODO
+
+To keep our short and long-term goals in order, we also maintained a list of concrete tasks for each team: bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these tasks, we employed the iteration design cycle process during development.
+
+Each team started development by building a basic prototype of its designated component of the project. The teams built a basic React app with only visual functionality, a Firebase backend API with simple CRUD operations, and a keyword extraction script using sample data. Once we evaluated and tested our prototypes, we identified and designed the next set of features to add. 
+
+As the teams repeated this cycle, the prototypes started to integrate together: the React app fetched and sent user data to the backend, and the backend stored the results of the recommendation model. Because the work between teams became more fluid, for each new feature of Research Bay, each team demoed its work and gathered user feedback from others. As reflected in our testing, this process ensured all project developers were kept up-to-date and could effectively contribute to the same team vision. 
+
+In the current state of Research Bay, much of the core building of the solution has been finished and Research Bay is a full website deployed at: https://research-bay.web.app. However, we still have future plans to take our solution to the next level, so all teams are currently in the process of working on documentation, tests, and bug fixes to prepare for the next stage.
+
 Details for running our code are found here: https://github.com/DSC-UIUC/research-bay#getting-started
 
 ---
