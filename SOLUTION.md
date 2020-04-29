@@ -52,7 +52,21 @@ TODO data/ml team testing (with real profiles, recommendations and search)
 ---
 
 #### How will or has your solution improved the lives of people in your community? 
-(Please include specific use cases of how users can use this solution. Do not worry about the technical components here)
+Given the lack of a standardized way for students to find research and professors to find research assistants, Research Bay has many ways to improve the search for research for both students and professors alike.
+
+Our services offer the ability for professors to search for particular students who have applied to their positions in order to understand more background information on them.
+
+There are various groups of people benefitting from our platform. Common cases include, but are not limited to:
+
+Interdisciplinary Research: Professors who work in a domain such as Biology may need Data Analysts or Mathematicians to conduct interdisciplinary research, but lack the necessary outreach to do so. By giving them a platform, we enable them to find students in those fields also interested in conducting interdisciplinary research through the use of our recommendation system. 
+
+Under-represented Fields: Professors at a university that work in a field underrepresented with researchers. They need more support in outreach to find students who are willing to dive into other fields that have larger research opportunities. Through the use of our search algorithm, they’re able to detect bio’s of students most willing to venture into other fields and try new options. Furthermore, they’ll also get weekly recommendations for these types of students.
+
+Over-represented Fields: Professors in these fields get too many emails, they don’t have a quick way of judging someone’s research abilities and many programs are oversaturated with emails so professors give few responses due to lack of credibility and standardization. Research Bay helps professors in this position by filtering out students who don’t match their needs and recommending students who most closely meet their requirements and interests set by postings.
+
+Emailing Student: Students that lack the experience for specialized research programs or the skillset to get into a highly competitive research program primarily represent this group. Many of these students email a lot of professors and fail to get a proper resonse. They find it difficult to pinpoint professors looking for research assistants. They need a way to find open positions for research while being able to connect with researchers at a higher response rate than cold emailing. Recommendations make it easier to find postings that align with their interests and applications to these postings make it possible for them to get a response.
+
+Research Bay’s website and algorithms ultimately make it easier for students to find research opportunities and professors to fill them.
 
 Additional details are available here: https://github.com/DSC-UIUC/research-bay#about
 
