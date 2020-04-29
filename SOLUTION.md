@@ -65,7 +65,7 @@ After the basic idea for Research Bay was defined, each team (frontend, backend,
 After identifying core features and functionalities, we determined the ideal tech stack to use for Research Bay for our needs. After much research, we selected the following:
 
 - Frontend: We opted for a React/Redux app because of its widespread industry use, relatively straightforward learning curve (most team members were beginners), and a wide array of available styling libraries fit for our use, among other reasons. We selected Material UI as our main components library because it adapts Google’s Material Design style that we wanted to adopt for our website. 
-- Backend: TODO
+- Backend: We chose to host our backend on the cloud and decided on Firebase for its built-in suite of easily integrable services that we needed for Research Bay: Authentication, Firestore DB, Cloud Functions, Hosting, etc. It would be automatically scalable for when we release Research Bay into the public, and all of the infrastructure is internally maintained by Firebase. Also, Firebase's extensive documentation and guides (ex. Firecast videos) greatly helped the team, many of whom were beginners and needed a technology without a steep learning curve.
 - Data/ML: TODO
 
 To keep our short and long-term goals in order, we also maintained a list of concrete tasks for each team: bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these tasks, we employed the iteration design cycle process during development.
