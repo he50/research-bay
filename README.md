@@ -117,6 +117,7 @@ The latest versions of the following software are required:
 * [git](https://git-scm.com/downloads)
 * [npm](https://www.npmjs.com/get-npm)
 * [Firebase CLI](https://firebase.google.com/docs/cli)
+* [Google Cloud SDK CLI](https://cloud.google.com/sdk/docs/quickstarts)
 
 #### Creating a Firebase Project
 
