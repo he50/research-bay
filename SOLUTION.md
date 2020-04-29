@@ -19,18 +19,18 @@ For our backend API consisting of Cloud Functions, we implemented a straightforw
 
 Integration Testing:
 
-After the initial unit testing, we moved onto connecting the frontend with the backend via HTTP. We tested various simple user actions such as authentication (sign in/up) and fetching and displaying the user’s profile data. During this stage, we thoroughly tested the correctness of our HTTP request/response formats and error handling code and continuously updated a large bulk of our documentation and code. The frontend was updated to better display and send user data, and bugs in the backend were patched to ensure all CRUD operations were working correctly. After the essential CRUD functionality, we moved onto testing the backend's integration with our recommendations/search systems, following a similar strategy of testing endpoints' responses and actions.
+After the initial unit testing, we moved onto connecting the frontend with the backend via HTTP. We tested various simple user actions such as authentication (sign in/up) and fetching and displaying the user’s profile data. During this stage, we thoroughly tested the correctness of our HTTP request/response formats and error handling code and continuously updated a large bulk of our documentation and code. The frontend was updated to better display and send user data, and bugs in the backend were patched to ensure all CRUD operations were working correctly. After the essential CRUD functionality, we moved onto testing the backend's integration with our recommendations/search systems, following a similar strategy of testing endpoints' responses and actions. 
 
 End-to-end, Field Testing:
 
-Once most core features were largely completed, we began end-to-end testing with a local instance of the React.js app and deployed Firebase backend. Members of the Research Bay teams tested the website from the perspective of external users: creating accounts, customizing profiles, and creating/applying to research postings from sample professor accounts. Testing the website’s UI/UX, performance, and correctness help us to patch additional bugs, add minor quality-of-life improvements, and set our future roadmap. After this stage of testing, we plan to release Research Bay to a limited group of professors and students at UIUC.
+Once most core features were largely completed, we began end-to-end testing with a local instance of the React.js app and deployed Firebase backend. All members of the Research Bay teams thoroughly tested the website from the perspective of external users: creating accounts, customizing profiles, and creating/applying to research postings from sample professor accounts. Testing the website’s UI/UX, performance, and correctness (such as the quality of recommendations generated for the users) helped us to patch additional bugs, add minor quality-of-life improvements, and set our future roadmap. After this stage of testing, we plan to release Research Bay to a limited group of professors and students at UIUC.
 
 ---
 
 #### Please share the outcome of your testing strategy. What specific feedback did you receive from users? What specifically did you maintain or iterate based on that feedback? 
 (Think about the UI or the actual solution design or maybe did you have to go back to the idea and refine it further)
 
-Our diverse methods of testing Research Bay have been highly useful and effective for establishing a consistent feedback loop between teams, fixing bugs, and planning new features. For example, the frontend team has regularly presented its working React app to the other teams, encouraged them to try out the website as users, and developed based on their feedback I. Some feedback received in the past include:
+Our diverse and comprehensive methods of testing Research Bay have been highly useful and effective for establishing a consistent feedback loop between teams, fixing bugs, and planning new features. For example, the frontend team has regularly presented its working React app to the other teams, encouraged them to try out the website as users, and developed based on their feedback I. Some feedback received in the past include:
 
 1. Website is unclear whether it’s still or finished fetching user data to load a full-page
 2. Allocate entirely separate page for professors to create, edit, and view their open research positions instead of on their profile page
@@ -46,6 +46,8 @@ For the backend team, much of the feedback they have received has been about dat
 3. Fix user deletion so that all DB documents (profile, postings, metadata, etc) are deleted along with the user in Authentication (deep deletion)
 
 As we continue development with our future roadmap and hope to gather more feedback from a limited release in the fall, we will continue improving the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes are likely as we have already finished and refined most core features with good end-to-end testing.
+
+TODO data/ml team testing (with real profiles, recommendations and search) 
 
 ---
 
