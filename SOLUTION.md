@@ -142,7 +142,7 @@ In terms of effectively continuing development with new and existing features, G
 
 #### Describe your favorite component (s) /feature (s) of your technical infrastructure and why you chose it/them for your solution.
 
-My favorite part of our tech stack for Research Bay is the Serverless Firebase backend because it is modular, efficient, and responsible for seamlessly connecting all of the other components into Research Bay. For example, the React.js frontend communicates with the backend over HTTP using a REST API. When the Research Bay mobile app is being developed, it will be able to easily integrate with the current backend just like the website.
+My favorite part of our infrastructure for Research Bay is the Serverless Firebase backend because it is modular, efficient, and responsible for seamlessly connecting all of the other components into Research Bay. The React.js frontend communicates with the backend over HTTP through the REST API, and our recommendation and search systems are regularly updated with new user data by the backend's automatic event triggers for functions. When the Research Bay mobile app is being developed, it will be able to easily integrate with the current backend's existing endpoints like the website.
 
 Compared to typical servers (ex. using Node.js or Apache), our Serverless backend also has the following advantages:
 
