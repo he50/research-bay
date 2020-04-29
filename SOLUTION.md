@@ -30,6 +30,24 @@ Once most core features of Research Bay were largely completed, we began end-to-
 #### Please share the outcome of your testing strategy. What specific feedback did you receive from users? What specifically did you maintain or iterate based on that feedback? 
 (Think about the UI or the actual solution design or maybe did you have to go back to the idea and refine it further)
 
+Our diverse methods of testing Research Bay have been highly useful and effective for establishing a consistent feedback loop between teams, fixing bugs, and planning new features. For example, the frontend team has regularly presented its working React app to the other teams, encouraged them to try out the website as users, and developed based on their feedback I. Some feedback received in the past include:
+
+1. Website is unclear whether it’s still or finished fetching user data to load a full-page
+2. Allocate entirely separate page for professors to create, edit, and view their open research positions instead of on their profile page
+3. Users should have the ability to upload their resume and picture to their profiles
+4. Be able to filter search and recommendation results locally by user profiles, research postings, or both
+
+Since then, these key issues have all been fixed and helped the frontend get to the functional, more comprehensive UI it is now. Our team members have made contributions to the style and quality-of-life additions of Research Bay as well.
+
+For the backend team, much of the feedback they have received has been about database optimizations and streamlining the REST API’s response formats to better integrate with the frontend. Some examples of past feedback that the backend team has iterated based on are below:
+
+1. Standardized JSON response data format and handle CORS issues
+2. Instead of returning only document IDs and making the frontend send multiple requests for profile or postings data, modify the endpoint to fetch and return user data by itself
+3. Fix user deletion so that all documents (profile, postings, metadata, etc) are deleted along with the user in Authentication (deep deletion)
+
+As we continue development with our future roadmap and hope to gather more feedback from a limited release in the fall, we will continue improving the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes will be needed as we have already finished and refined most core features with end-to-end testing.
+
+
 ---
 
 #### How will or has your solution improved the lives of people in your community? 
