@@ -47,7 +47,16 @@ For the backend team, much of the feedback they have received has been about dat
 
 As we continue development with our future roadmap and hope to gather more feedback from a limited release in the fall, we will continue improving the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes are likely as we have already finished and refined most core features with good end-to-end testing.
 
-TODO data/ml team testing (with real profiles, recommendations and search) 
+For the data/ml team, the feedback that we received was mostly about search and recommendation accuracy. Some feedback in the past included:
+
+1. Filter out unnecessary data from the Algolia search function call and create an object to store all data deemed useful for the frontend.
+2. Configure search algorithm to not allow users to search for ids, applicants, data that is private for a user.
+3. Gather more accurate recommendations given a user’s history by adding more data into the database for testing since the lack of enough data results in an inaccurate recommendation system.
+4. Run recommendation algorithms more frequently on the back-end.
+5. Modify the recommendation algorithm to filter out students that don’t meet the requirements of certain postings.
+
+While we prepare for a future release, we will continue growing our data within our database in order to continually test the reliability of our recommendation and search algorithms as our data and users scale, refine the algorithmic runtime of our recommendation and search algorithms to display user data more seamlessly, and improve the accuracy of our recommendation system. Improving Machine Learning algorithms is a continuous process and we’ve built a solid basis upon which minor adjustments will be made to give users more accurate results, but most key issues have been fixed from extensive field testing.
+
 
 ---
 
