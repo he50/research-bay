@@ -5,7 +5,7 @@
 #### Please clearly describe the challenge you are looking to solve with technology and how this solution addresses the challenge at hand. 
 (max 500 chars)
 
-Our university offers thousands of research opportunities. However, many students are unaware that these opportunities exist. Currently, there is no standardized way of discovering and pursuing research with professors. Research Bay aims to provide a platform for UIUC students to discover research opportunities and for professors to discover talent. It offers a streamlined, one-stop-shop solution for students and professors alike through personalized profiles, research postings coupled with a search/recommendation system. 
+Our university offers thousands of research opportunities, however, many students are unaware that these opportunities exist. Currently, there is no standardized way of discovering and pursuing research with professors. Research Bay aims to provide a platform for UIUC students to discover research opportunities and for professors to discover talent. It offers a streamlined, one-stop-shop solution for students and professors through personalized profiles, research postings, and a search/recommendation system. 
 
 ---
 
@@ -47,10 +47,37 @@ For the backend team, much of the feedback they have received has been about dat
 
 As we continue development, we will improve the backend according to the needs of other teams. Updates and additions to the REST API will be made, but no major structural fixes are likely, as we have already implemented and robustly tested most of core features of the API.
 
+For the data/ml team, the feedback that we received was mostly about search and recommendation accuracy. Some feedback in the past included:
+
+1. Filter out unnecessary data from the Algolia search function call and create an object to store all data deemed useful for the frontend.
+2. Configure search algorithm to not allow users to search for ids, applicants, data that is private for a user.
+3. Gather more accurate recommendations given a user’s history by adding more data into the database for testing since the lack of enough data results in an inaccurate recommendation system.
+4. Run recommendation algorithms more frequently on the back-end.
+5. Modify the recommendation algorithm to filter out students that don’t meet the requirements of certain postings.
+
+While we prepare for a future release, we will continue growing our data within our database in order to continually test the reliability of our recommendation and search algorithms as our data and users scale, refine the algorithmic runtime of our recommendation and search algorithms to display user data more seamlessly, and improve the accuracy of our recommendation system. Improving Machine Learning algorithms is a continuous process and we’ve built a solid basis upon which minor adjustments will be made to give users more accurate results, but most key issues have been fixed from extensive field testing.
+
 ---
 
 #### How will or has your solution improved the lives of people in your community? 
+
 (Please include specific use cases of how users can use this solution. Do not worry about the technical components here)
+
+Given the lack of a standardized way for students to find research and professors to find research assistants, Research Bay has many ways to improve the search for research for both students and professors alike.
+
+Our services offer the ability for professors to search for particular students who have applied to their positions in order to understand more background information on them.
+
+There are various groups of people benefitting from our platform. Common cases include, but are not limited to:
+
+Interdisciplinary Research: Professors who work in a domain such as Biology may need Data Analysts or Mathematicians to conduct interdisciplinary research, but lack the necessary outreach to do so. By giving them a platform, we enable them to find students in those fields also interested in conducting interdisciplinary research through the use of our recommendation system. 
+
+Under-represented Fields: Professors at a university that work in a field underrepresented with researchers. They need more support in outreach to find students who are willing to dive into other fields that have larger research opportunities. Through the use of our search algorithm, they’re able to detect bio’s of students most willing to venture into other fields and try new options. Furthermore, they’ll also get weekly recommendations for these types of students.
+
+Over-represented Fields: Professors in these fields get too many emails, they don’t have a quick way of judging someone’s research abilities and many programs are oversaturated with emails so professors give few responses due to lack of credibility and standardization. Research Bay helps professors in this position by filtering out students who don’t match their needs and recommending students who most closely meet their requirements and interests set by postings.
+
+Interested Student: Students that lack the experience for specialized research programs or the skillset to get into a highly competitive research program primarily represent this group. Many of these students email a lot of professors and fail to get a proper response. They find it difficult to pinpoint professors looking for research assistants. They need a way to find open positions for research while being able to connect with researchers at a higher response rate than cold emailing. Recommendations make it easier to find postings that align with their interests and applications to these curated postings make it possible for them to get a response.
+
+Research Bay’s website and algorithms ultimately make it easier for students to find research opportunities and professors to fill them.
 
 Additional details are available here: https://github.com/DSC-UIUC/research-bay#about
 
@@ -68,7 +95,7 @@ After identifying core features and functionalities, we determined the ideal tec
 - Backend: We chose to host our backend on the cloud and decided on Firebase for its built-in suite of easily integrable services that we needed for Research Bay: Authentication, Firestore DB, Cloud Functions, Hosting, etc. It would be automatically scalable for when we release Research Bay into the public, since all of the infrastructure is internally maintained by Firebase. Also, Firebase's extensive documentation and guides (e.g. Firecast videos) greatly helped the team, many of whom were beginners and needed a technology without a steep learning curve.
 - Data/ML: TODO
 
-To keep our short and long-term goals in order, we maintained a list of concrete tasks for each team: bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these steps, we used the iteration design cycle during development.
+To keep our short and long-term goals in order, we maintained a list of concrete tasks for each team: https://bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these steps, we used the iteration design cycle during development.
 
 Each team started development by building a basic prototype of its designated component of the project. The teams built a basic React app with only visual functionality, a Firebase backend API with simple CRUD operations, and a keyword extraction script using sample data. Once we evaluated and tested our prototypes, we identified and designed the next set of features to add. 
 
@@ -107,7 +134,7 @@ The Research Bay team also plans to continue development and maintenance of this
 #### What specific support do you need to achieve that?
 *What has to happen to implement this solution to new regions and new users?*
 
-To complete Research Bay into a production-ready user-facing public platform, the Research bay team is not only concerned with adding/improving website performance and functionality. To ensure better security for its users and their personal data, Research Bay will need the support of the University of Illinois and its Technology Services department to be further examined to make sure it meets all University standards. It will also be helpful to integrate Research Bay's user authentication with UIUC's Shibboleth system to better connect online users to their real-life identity. (Shibboleth is the authentication system that controls access to most UIUC services, including course registration and online classwork.)
+To complete Research Bay into a production-ready platform, the development team is not only concerned with adding/improving website performance and functionality. To ensure better security for its users and their personal data, Research Bay will need the support of the University of Illinois and its Technology Services department to be further examined to make sure it meets all University standards. It will also be helpful to integrate Research Bay's user authentication with UIUC's Shibboleth system to better connect online users to their real-life identity. (Shibboleth is the authentication system that controls access to most UIUC services, including course registration and online classwork.)
 
 The Research Bay team would also need support from both UIUC and Google with advertising and providing legitimacy for the website before and during its limited and public release stages. The University's assistance would be valuable when reaching out to professors to join our platform, and Google's support for Research Bay could provide increased exposure and credibility towards students, making them more likely to use our platform.
 
@@ -117,7 +144,7 @@ In terms of continuing development, technical expertise from Google would be imm
 
 #### Describe your favorite component (s) /feature (s) of your technical infrastructure and why you chose it/them for your solution.
 
-My favorite part of our tech stack for Research Bay is the Serverless Firebase backend because it is modular, efficient, and responsible for seamlessly connecting all of the other components into Research Bay. For example, the React.js frontend communicates with the backend over HTTP using a REST API. When the Research Bay mobile app is being developed, it will be able to easily integrate with the current backend just like the website.
+My favorite part of our infrastructure for Research Bay is the Serverless Firebase backend because it is modular, efficient, and responsible for seamlessly connecting all of the other components into Research Bay. The React.js frontend communicates with the backend over HTTP through the REST API, and our recommendation and search systems are regularly updated with new user data by the backend's automatic event triggers for functions. When the Research Bay mobile app is being developed, it will be able to easily integrate with the current backend's existing endpoints like the website.
 
 Compared to typical servers (ex. using Node.js or Apache), our Serverless backend also has the following advantages:
 

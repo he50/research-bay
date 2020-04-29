@@ -177,7 +177,24 @@ The Research Bay Cloud Functions should now be deployed. Any local changes to fu
 
 #### Data/ML
 
-TODO
+```sh
+git clone https://github.com/DSC-UIUC/rbay-data-ml.git rbay-data-ml
+cd rbay-data-ml
+pip install -r requirements.txt
+cd recommendation_algorithm
+```
+
+From here, copy the recommendation.py and requirements.txt files into the gcp console and run. For testing the model after training it, do the following:
+
+```sh
+git clone https://github.com/DSC-UIUC/rbay-data-ml.git rbay-data-ml
+cd rbay-data-ml
+pip install -r requirements.txt
+cd recommendation_scratch_space
+python recommendation_algorithm.py
+```
+
+Run the models on some training data and pass in a text block to determine most optimal matches.
 
 ## Usage
 
