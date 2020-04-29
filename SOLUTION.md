@@ -64,9 +64,9 @@ After the basic idea for Research Bay was defined, each team (frontend, backend,
 
 After identifying core features and functionalities, we determined the ideal tech stack to use for Research Bay for our needs. After much research, we selected the following:
 
-Frontend: We opted for a React/Redux app because of its widespread industry use, relatively straightforward learning curve (most team members were beginners), and a wide array of available styling libraries fit for our use, among other reasons. We selected Material UI as our main components library because it adapts Google’s Material Design style that we wanted to adopt for our website. 
-Backend: TODO
-Data/ML: TODO
+- Frontend: We opted for a React/Redux app because of its widespread industry use, relatively straightforward learning curve (most team members were beginners), and a wide array of available styling libraries fit for our use, among other reasons. We selected Material UI as our main components library because it adapts Google’s Material Design style that we wanted to adopt for our website. 
+- Backend: TODO
+- Data/ML: TODO
 
 To keep our short and long-term goals in order, we also maintained a list of concrete tasks for each team: bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these tasks, we employed the iteration design cycle process during development.
 
