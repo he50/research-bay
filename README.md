@@ -9,7 +9,9 @@
   <p align="center">
     A web platform for efficiently connecting students to research opportunities and professors
     <br />
-    <a href="https://research-bay.web.app"><strong><< Live Website >></strong></a>
+    <a href="https://research-bay.web.app"><strong>Website</strong></a>
+    ·
+    <a href="https://www.youtube.com/watch?v=7Y3ZaZOOMEI"><strong>Demo</strong></a>
     <br />
     <br />
   <strong>Code Repository Links</strong>
