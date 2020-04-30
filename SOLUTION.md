@@ -93,7 +93,7 @@ After identifying core features and functionalities, we determined the ideal tec
 
 - Frontend: We opted for a React/Redux app because of its widespread industry use, relatively straightforward learning curve (most team members were beginners), and a wide array of available styling libraries fit for our use, among other reasons. We selected Material UI as our main components library because it adapts Google’s Material Design style that we wanted to adopt for our website. 
 - Backend: We chose to host our backend on the cloud and decided on Firebase for its built-in suite of easily integrable services that we needed for Research Bay: Authentication, Firestore DB, Cloud Functions, Hosting, etc. It would be automatically scalable for when we release Research Bay into the public, since all of the infrastructure is internally maintained by Firebase. Also, Firebase's extensive documentation and guides (e.g. Firecast videos) greatly helped the team, many of whom were beginners and needed a technology without a steep learning curve.
-- Data/ML: TODO
+- Data/ML: For our search algorithm, we decided to use Algolia as it had seamless integration from our Cloud Firestore data collections to Algolia’s service. Using this service provides us quick and accurate results for Research Bay.
 
 To keep our short and long-term goals in order, we maintained a list of concrete tasks for each team: https://bit.ly/2Sjt0oi, which roughly outlines the actual steps we took to build our solution. To accomplish these steps, we used the iteration design cycle during development.
 
